@@ -1,0 +1,24 @@
+{
+  "name": "projetopratico",
+  "version": "1.0.0",
+  "description": "Criando uma API e fazendo o primeiro projeto com a {Reprograma}",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndradeDay/reprograma-projeto-pratico.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndradeDay/reprograma-projeto-pratico/issues"
+  },
+  "homepage": "https://github.com/AndradeDay/reprograma-projeto-pratico#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4"
+  }
+}
