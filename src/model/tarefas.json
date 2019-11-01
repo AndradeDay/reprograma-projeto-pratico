@@ -4,21 +4,24 @@
         "dataInclusao": "12/08/2019",
         "concluido": "false",
         "descricao": "tarefa 1 - Agora vai",
-        "nome": "Rachel Gren"
+        "nome": "Rachel Gren",
+        "dataConclusao": "Ainda não concluiu"
     },
     {
         "id": 2,
         "dataInclusao": "12/10/2019",
         "concluido": "true",
         "descricao": "Tarefa 2 - Vai com fé",
-        "nome": "Monica Geller"
+        "nome": "Monica Geller",
+        "dataConclusao": "12/11/2019"
     },
     {
         "id": 3,
         "dataInclusao": "01/10/2019",
         "concluido": "false",
         "descricao": "Tarefa 3 - confia",
-        "nome": "phoebe Buffay"
+        "nome": "phoebe Buffay",
+        "dataConclusao": "Ainda não concluiu"
     },
 
     {
@@ -26,6 +29,11 @@
         "dataInclusao": "02/09/2019",
         "concluido": "true",
         "descricao": "Tarefa 4 - Tarefa final - Terminado",
-        "nome": "Chandler Bing"
+        "nome": "Chandler Bing",
+        "dataConclusao": "24/11/2019"
     }
 ]
+
+
+
+
