@@ -32,4 +32,27 @@ exports.getNome = (req, res) => {
 exports.getConcluido = (req, res) => {
     const tarefaConcluida = tarefas.filter(tarefaConcluida => tarefaConcluida.concluido === "true")
     res.status(200).send(tarefaConcluida)
- }
+}
+
+
+
+
+function dataSeparada(data) {
+    const separarData = data.split ("/");
+    return new Date(separarData[1] + "-" + separarData[0] + "-" + separarData[2])
+
+}
+exports.getDataInclusao = (req, res) => {
+    const ordenarData = tarefas.sort(function (a, b) {
+        if (dataSeparada(a.dataInclusao) < dataSeparada(b.dataInclusao)) {
+            return 1;
+        }
+        if (dataSeparada(a.dataInclusao) > dataSeparada(b.dataInclusao)) {
+            return -1;
+        }
+        return 0;
+    })
+    res.status(200).send(ordenarData)
+}
+
+
