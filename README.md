@@ -8,7 +8,7 @@ Criando uma API e fazendo o primeiro projeto com a {Reprograma} :hugs:
 ### API Para listagem de tarefas  :bookmark_tabs: 
 
 #### Objetivo da API é trazer e filtrar as informação das tarefas; 
-- [ X ] Trazer todas as tarefas
+-[X] Trazer todas as tarefas
 
 [X] Trazer tarefas a partir de um ID
 
